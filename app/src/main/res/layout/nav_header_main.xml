@@ -6,32 +6,19 @@
     android:background="@drawable/side_nav_bar"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-    <ImageView
-        android:id="@+id/ivTimeTrackerLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:src="@drawable/time_tracking_icon"
-        android:tint="@color/white"
-        android:layout_centerInParent="true"
-        android:layout_gravity="center"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Time tracker"
-        android:layout_below="@+id/ivTimeTrackerLogo"
-        android:layout_centerInParent="true"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="@color/white"/>
-
     <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
         android:layout_alignParentBottom="true"
         android:background="@color/white"/>
 
-<!--    <ImageView-->
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/timevaultpic" />
+
+    <!--    <ImageView-->
 <!--        android:id="@+id/ivProfilPhoto"-->
 <!--        android:layout_width="wrap_content"-->
 <!--        android:layout_height="wrap_content"-->

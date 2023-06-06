@@ -20,7 +20,7 @@ class SplashActivity : AppCompatActivity() {
         setContentView(mBinding!!.root)
 
         val splashAnimation = AnimationUtils.loadAnimation(this, R.anim.anim_splash)
-        mBinding!!.ivTimeTrackerLogo.animation = splashAnimation
+        mBinding!!.imageView.animation = splashAnimation
 
         splashAnimation.setAnimationListener(object : Animation.AnimationListener {
             override fun onAnimationStart(animation: Animation?) {
