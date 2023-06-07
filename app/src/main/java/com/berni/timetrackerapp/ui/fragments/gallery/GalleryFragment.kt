@@ -28,7 +28,7 @@ class GalleryFragment : Fragment(R.layout.fragment_gallery),
 
     private val viewModel by viewModels<GalleryViewModel>()
 
-    val recordArgs: GalleryFragmentArgs by navArgs()
+    private val recordArgs: GalleryFragmentArgs by navArgs()
 
     private var _binding: FragmentGalleryBinding? = null
     private val binding get() = _binding!!

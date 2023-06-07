@@ -102,5 +102,14 @@
         android:name="com.berni.timetrackerapp.ui.fragments.settings.SettingsFragment"
         android:label="Settings"
         tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_daily_goals"
+        android:name="com.berni.timetrackerapp.ui.fragments.daily_goals.DailyGoalsFragment"
+        android:label="fragment_daily_goals"
+        tools:layout="@layout/fragment_daily_goals" />
+    <activity
+        android:id="@+id/nav_gps"
+        android:name="com.berni.timetrackerapp.ui.fragments.GPS.GPSFragment"
+        android:label="GPSFragment" />
 
 </navigation>

@@ -13,6 +13,14 @@
             android:icon="@drawable/vector_records"
             android:title="@string/records" />
         <item
+            android:id="@+id/nav_daily_goals"
+            android:icon="@drawable/ic_statistics_30"
+            android:title="Daily Goals" />
+        <item
+            android:id="@+id/nav_gps"
+            android:icon="@drawable/ic_statistics_30"
+            android:title="GPS Tracking" />
+        <item
             android:id="@+id/nav_statistic"
             android:icon="@drawable/ic_statistics_30"
             android:title="@string/statistics" />
