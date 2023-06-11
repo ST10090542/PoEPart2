@@ -21,6 +21,10 @@
             android:icon="@drawable/ic_statistics_30"
             android:title="GPS Tracking" />
         <item
+            android:id="@+id/nav_timesheet"
+            android:icon="@drawable/ic_baseline_timer_24"
+            android:title="Timesheet" />
+        <item
             android:id="@+id/nav_statistic"
             android:icon="@drawable/ic_statistics_30"
             android:title="@string/statistics" />
