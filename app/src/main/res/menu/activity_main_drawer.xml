@@ -25,6 +25,10 @@
             android:icon="@drawable/ic_baseline_timer_24"
             android:title="Timesheet" />
         <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/vector_records"
+            android:title="Category" />
+        <item
             android:id="@+id/nav_statistic"
             android:icon="@drawable/ic_statistics_30"
             android:title="@string/statistics" />

@@ -115,5 +115,9 @@
         android:id="@+id/nav_timesheet"
         android:name="com.berni.timetrackerapp.ui.fragments.timesheetentry.TimesheetFragment"
         android:label="TimesheetFragment" />
+    <fragment
+        android:id="@+id/nav_category"
+        android:name="com.berni.timetrackerapp.ui.fragments.category.CategoryFragment"
+        android:label="CategoryFragment" />
 
 </navigation>
