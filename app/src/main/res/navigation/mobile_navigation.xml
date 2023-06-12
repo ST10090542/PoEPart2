@@ -105,19 +105,19 @@
     <fragment
         android:id="@+id/nav_daily_goals"
         android:name="com.berni.timetrackerapp.ui.fragments.daily_goals.DailyGoalsFragment"
-        android:label="fragment_daily_goals"
+        android:label="Add Daily Goals"
         tools:layout="@layout/fragment_daily_goals" />
     <activity
         android:id="@+id/nav_gps"
         android:name="com.berni.timetrackerapp.ui.fragments.GPS.GPSFragment"
-        android:label="GPSFragment" />
+        android:label="GPS Tracker" />
     <fragment
         android:id="@+id/nav_timesheet"
         android:name="com.berni.timetrackerapp.ui.fragments.timesheetentry.TimesheetFragment"
-        android:label="TimesheetFragment" />
+        android:label="Timesheet Entry" />
     <fragment
         android:id="@+id/nav_category"
         android:name="com.berni.timetrackerapp.ui.fragments.category.CategoryFragment"
-        android:label="CategoryFragment" />
+        android:label="Add Category Item" />
 
 </navigation>
