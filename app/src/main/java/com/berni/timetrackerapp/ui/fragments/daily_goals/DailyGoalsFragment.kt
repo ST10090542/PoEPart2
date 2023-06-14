@@ -10,7 +10,7 @@ import android.widget.Button
 import android.widget.EditText
 import androidx.fragment.app.Fragment
 import com.berni.timetrackerapp.R
-
+//code
 class DailyGoalsFragment : Fragment() {
     private lateinit var etMinimum: EditText
     private lateinit var etMaximum: EditText
