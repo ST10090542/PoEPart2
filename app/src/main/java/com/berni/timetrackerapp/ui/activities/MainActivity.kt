@@ -26,7 +26,7 @@ class MainActivity : BaseActivity() {
         setContentView(mBinding.root)
 
         setSupportActionBar(mBinding.appBarMain.toolbar)
-
+// ids are saved for the navigation view
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         appBarConfiguration = AppBarConfiguration(
             setOf(R.id.nav_timer, R.id.nav_records,R.id.nav_daily_goals, R.id.nav_gps,R.id.nav_timesheet,R.id.nav_category,R.id.nav_statistic, R.id.nav_overview, R.id.nav_settings), mBinding.drawerLayout
