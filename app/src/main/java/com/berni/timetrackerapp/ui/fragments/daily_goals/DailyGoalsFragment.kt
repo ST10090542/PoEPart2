@@ -15,7 +15,7 @@ class DailyGoalsFragment : Fragment() {
     private lateinit var etMinimum: EditText
     private lateinit var etMaximum: EditText
     private lateinit var btnSave: Button
-
+//on create
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_daily_goals, container, false)
 
