@@ -1,5 +1,6 @@
 package com.berni.timetrackerapp.ui.fragments.daily_goals
-
+// allows a user to inert their daily goals
+//import statements
 import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
