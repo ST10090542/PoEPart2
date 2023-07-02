@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="7mm">
+
+    <EditText
+        android:id="@+id/hoursEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="12dp"
+        android:hint="Hours Worked"
+        android:inputType="numberDecimal"
+        android:textColor="#FF4500"
+        android:textColorHint="#FF4500" />
+
+    <EditText
+        android:id="@+id/minGoalEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="12dp"
+        android:hint="Minimum Goal"
+        android:inputType="numberDecimal"
+        android:textColor="#008000"
+        android:textColorHint="#008000" />
+
+    <EditText
+        android:id="@+id/maxGoalEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="12dp"
+        android:hint="Maximum Goal"
+        android:inputType="numberDecimal"
+        android:textColor="#0000CD"
+        android:textColorHint="#0000CD" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Submit" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="16dp" />
+
+</LinearLayout>

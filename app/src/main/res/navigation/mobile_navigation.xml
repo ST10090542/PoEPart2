@@ -119,5 +119,10 @@
         android:id="@+id/nav_category"
         android:name="com.berni.timetrackerapp.ui.fragments.category.CategoryFragment"
         android:label="Add Category Item" />
+    <fragment
+        android:id="@+id/nav_graphFragment"
+        android:name="com.berni.timetrackerapp.ui.fragments.graph.GraphFragment"
+        android:label="Graph"
+        tools:layout="@layout/fragment_graph" />
 
 </navigation>

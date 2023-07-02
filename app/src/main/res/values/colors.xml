@@ -14,5 +14,14 @@
     <color name="orange">#f79f00</color>
     <color name="gray">#f5f4f4</color>
     <color name="darkSeaBlue">#007591</color>
+    <color name="chartLineColor">#FF6347</color> <!-- Tomato color for the line of "Hours Worked" -->
+    <color name="chartCircleColor">#FF4500</color> <!-- Orange Red color for the circle of "Hours Worked" -->
+    <color name="minGoalLineColor">#32CD32</color> <!-- Lime Green color for the line of "Minimum Goal" -->
+    <color name="minGoalCircleColor">#008000</color> <!-- Green color for the circle of "Minimum Goal" -->
+    <color name="maxGoalLineColor">#1E90FF</color> <!-- Dodger Blue color for the line of "Maximum Goal" -->
+    <color name="maxGoalCircleColor">#0000CD</color>
+
+
+
 
 </resources>

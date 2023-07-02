@@ -29,6 +29,10 @@
             android:icon="@drawable/vector_records"
             android:title="Category" />
         <item
+            android:id="@+id/nav_graphFragment"
+            android:icon="@drawable/ic_statistics_30"
+            android:title="Hours Worked Graph" />
+        <item
             android:id="@+id/nav_statistic"
             android:icon="@drawable/ic_statistics_30"
             android:title="@string/statistics" />

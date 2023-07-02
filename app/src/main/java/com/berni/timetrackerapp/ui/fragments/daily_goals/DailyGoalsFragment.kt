@@ -38,7 +38,7 @@ class DailyGoalsFragment : Fragment() {
 
         return view
     }
-//loads the daily goals. 
+//loads the daily goals.
     private fun loadDailyGoals(): DailyGoals {
         val sharedPref = requireActivity().getSharedPreferences("app_preferences", Context.MODE_PRIVATE)
         val minimumHours = sharedPref.getInt("minimum_hours", 0)
